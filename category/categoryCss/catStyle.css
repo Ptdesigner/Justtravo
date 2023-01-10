@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-family: "" Open Sans ", sans-serif" !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Zilla Slab", serif;
+}
+.airlines {
+  background: url(../images/1.png);
+  background-position: center;
+  background-size: cover;
+  padding: 160px 0;
+}
+.travel {
+  background: url(../images/5.png);
+  background-position: center;
+  background-size: cover;
+  padding: 160px 0;
+}
+.car-rental {
+  background: url(../images/2.png);
+  background-position: center;
+  background-size: cover;
+  padding: 160px 0;
+}
+.hotel {
+  background: url(../images/4.png);
+  background-position: center;
+  background-size: cover;
+  padding: 160px 0;
+}
+.destination-container {
+  background: url(../images/3.png);
+  background-position: center;
+  background-size: cover;
+  padding: 160px 0;
+}
+.car-rental-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.travelWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.destinationWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.airlneWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hotelWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.categoryPara {
+  width: 50%;
+  margin-top: 20px;
+}
+.wrapperAlign {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.categoryIcon img {
+  height: 44px;
+}
+.categoryName {
+  margin-left: 12px;
+}
+
+.breadcrumbsLinks {
+  padding: 40px 0;
+  display: flex;
+}
+.breadcrumbsLinks a {
+  color: black;
+  margin: 0 5px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.breadcrumbsLinks h2 {
+  font-size: 20px;
+}
+.categoryName h2 {
+  color: white;
+  font-size: 42px;
+  margin-left: 10px;
+}
+.categoryPara p {
+  font-size: 18px;
+  color: white;
+}
+.img_hover:hover img {
+  transform: scale(1.2);
+}
+.card {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.card:hover {
+  box-shadow: 0 5px 17px grey;
+  transition: 0.4s ease;
+}
+h5.card-title {
+  font-weight: normal;
+  font-size: 24px;
+}
+.card-body a {
+  color: #121212;
+  text-decoration: none;
+}
