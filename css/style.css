@@ -227,7 +227,7 @@ ul.dropDown a {
   margin-bottom: 40px;
 }
 .blog {
-  background-color: #aa5a3c;
+  background: url(../images/bg3.png);
   padding: 60px 0;
   width: 100%;
   background-position: center;
@@ -306,24 +306,26 @@ h2.blogHeading {
   color: white;
   margin-bottom: 60px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .destination {
-  background: url(../images/bg3.png);
-  padding: 60px 0;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  /* background: url(../images/bg3.png); */
+
+  background-color: #aa5a3c;
+    padding: 60px 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .destinationHeading {
   text-align: center;
   font-family: "Zilla Slab", serif;
-  color: white;
+  color: rgb(235, 235, 235);
   margin-bottom: 60px;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 500;
 }
 .destiImg {
   box-sizing: border-box;
@@ -367,7 +369,7 @@ section.notifications {
   margin: 0;
 }
 .footer {
-  background-color: #1a1919;
+  background-color: rgb(34 34 34);
   padding: 50px 0;
 }
 .footerLinks li {
