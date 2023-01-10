@@ -8,3 +8,9 @@ function stickyNavbar() {
   }
 }
 window.addEventListener("scroll", stickyNavbar);
+
+$(document).ready(function () {
+  $(".menu").click(function () {
+    $(".hamburger").toggleClass("showMenu");
+  });
+});
